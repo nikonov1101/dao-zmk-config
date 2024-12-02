@@ -1,34 +1,4 @@
-# ZMK Firmware for Dao keyboard
-
-This is a repository for a ZMK Firmware for both Dao42 and Dao44 keyboards.
-
-* [main](https://github.com/yumagulovrn/dao-zmk-config/tree/main) branch is for Dao42
-* [dao44](https://github.com/yumagulovrn/dao-zmk-config/tree/dao44) branch is, obviously, for Dao44
-
-## Default keymap
-
-### Dao42
-
-Visual representation of the default keymap in keyboard-layout-editor: [KLE](http://www.keyboard-layout-editor.com/#/gists/67a81f6b83c65abcda5e7f32989a1688)
-
-This layout is heavily inspired by [this](https://github.com/aroum/Watchman-layouts)
-
-### Dao44
-
-Visual representation of the default keymap in keyboard-layout-editor: [KLE](http://www.keyboard-layout-editor.com/#/gists/c6ba0634e5b92366be9f324775394e66)
-
-This layout is heavily inspired by [this](https://github.com/KGOH/Jian-Info)
-
-Because of current ZMK limitations, Dao44 keymap is in the branch [dao44](https://github.com/yumagulovrn/dao-zmk-config/tree/dao44)
-
-## FAQ
-
-- [FAQ](#faq)
-  - [How to change the keymap?](#how-to-change-the-keymap)
-  - [How to flash the keyboard?](#how-to-flash-the-keyboard)
-  - [How to pair halves?](#how-to-pair-halves)
-  - [Problems](#problems)
-    - [I'm getting File Transfer Error after copying firmware to the keyboard](#im-getting-file-transfer-error-after-copying-firmware-to-the-keyboard)
+# ZMK Firmware for Dao44 keyboard
 
 ### How to change the keymap?
 
