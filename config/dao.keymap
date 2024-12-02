@@ -68,10 +68,10 @@
 
         default_layer {
             bindings = <
-&kp CAPSLOCK  &kp GRAVE  &kp Q  &kp W  &kp E        &kp R          &kp T            &kp Y        &kp U           &kp I                 &kp O    &kp P     &kp LBKT       &kp RIGHT_BRACKET
-              &kp LCTRL  &kp A  &kp S  &kp D        &kp F          &kp G            &kp H        &kp J           &kp K                 &kp L    &kp SEMI  &mt RCTRL SQT
-              &kp LALT   &kp Z  &kp X  &kp C        &kp V          &kp B            &kp N        &kp M           &kp COMMA             &kp DOT  &kp FSLH  &mt RALT BSLH
-                                       &lt RSE TAB  &mt LSHFT ESC  &lt LWR SPACE    &lt LWR RET  &mt RSHFT BSPC  &lt RSE LEFT_COMMAND
+&kp CAPSLOCK  &kp TILDE        &kp Q  &kp W  &kp E        &kp R          &kp T            &kp Y        &kp U           &kp I           &kp O    &kp P     &kp LBKT       &mt LCMD RIGHT_BRACKET
+              &mt LCTRL GRAVE  &kp A  &kp S  &kp D        &kp F          &kp G            &kp H        &kp J           &kp K           &kp L    &kp SEMI  &mt RCTRL SQT
+              &kp LALT         &kp Z  &kp X  &kp C        &kp V          &kp B            &kp N        &kp M           &kp COMMA       &kp DOT  &kp FSLH  &mt RALT BSLH
+                                             &lt RSE TAB  &mt LSHFT ESC  &lt LWR SPACE    &lt LWR RET  &mt RSHFT BSPC  &lt RSE DELETE
             >;
         };
 
