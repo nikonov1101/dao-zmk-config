@@ -61,6 +61,13 @@
             bindings = <&kp LC(PAGE_DOWN)>;
             label = "FF_NEXT";
         };
+
+        go_newvar: go_newvar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp EQUAL>;
+            label = "GO_NEWVAR";
+        };
     };
 
     keymap {
@@ -86,10 +93,10 @@
 
         raise_layer {
             bindings = <
-&trans  &none   &none  &none  &none   &ff_next  &font_inc      &kp C_VOL_UP    &kp HOME        &kp PAGE_UP    &none      &none  &none  &trans
-        &none   &none  &none  &none   &none     &font_eq       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP         &kp RIGHT  &none  &none
-        &trans  &none  &none  &none   &ff_prev  &font_dec      &kp C_VOL_DN    &kp END         &kp PAGE_DOWN  &none      &none  &none
-                              &trans  &trans    &lt ADJ RET    &lt ADJ ESC     &trans          &trans
+&trans  &none   &none  &none  &none   &ff_next    &font_inc      &kp C_VOL_UP    &kp HOME        &kp PAGE_UP    &none      &none  &none  &trans
+        &none   &none  &none  &none   &go_newvar  &font_eq       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP         &kp RIGHT  &none  &none
+        &trans  &none  &none  &none   &ff_prev    &font_dec      &kp C_VOL_DN    &kp END         &kp PAGE_DOWN  &none      &none  &none
+                              &trans  &trans      &lt ADJ RET    &lt ADJ ESC     &trans          &trans
             >;
         };
 
