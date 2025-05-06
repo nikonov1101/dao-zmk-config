@@ -30,14 +30,14 @@
         font_inc: font_inc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(PLUS)>;
+            bindings = <&kp LC(EQUAL)>;
             label = "FONT_INC";
         };
 
         font_eq: font_eq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(EQUAL)>;
+            bindings = <&kp LC(NUMBER_0)>;
             label = "FONT_EQ";
         };
 
